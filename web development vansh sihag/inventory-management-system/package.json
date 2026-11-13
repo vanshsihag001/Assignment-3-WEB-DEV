@@ -1,0 +1,25 @@
+{
+  "name": "inventory-management-system",
+  "version": "1.0.0",
+  "description": "Assignment 3 - Inventory and Data Management System (Node.js, Express, MongoDB, Mongoose)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "inventory",
+    "express",
+    "mongoose",
+    "mongodb",
+    "rest-api"
+  ],
+  "author": "Vansh Sihag",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "mongoose": "^9.12.1"
+  }
+}
